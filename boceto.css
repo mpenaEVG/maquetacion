@@ -1,0 +1,76 @@
+html{
+  background-color: lightgray;
+}
+
+/*duda para isa: que diferencia hay entre ponerlo en el body o en el html*/
+body{
+  width: 1260px;
+  margin-top: 45px;
+  height: 500px;
+  background-color: tomato;
+}
+main{
+  background-color: lightcoral;
+  display: flow-root;  /* Limpia el fujo del contenedor */
+}
+
+footer{
+  height: 100px;
+  clear: both;
+  background-color: lightcoral;
+}
+
+#izquierda, #derecha{
+  border: 0.05px solid black;
+}
+
+#izquierda{
+  width: 775px;
+  height: 335px;
+  float: left;
+  padding: 30px 10px;
+  margin-left:20px;
+  margin-right: 10px;
+}
+#derecha{
+  width: 335px;
+  height: 295px;
+  margin-left: 10px;
+  margin-right: 20px;
+  float: left;
+  padding: 50px 30px;
+}
+ 
+/* div izquierdo */
+
+#parrafo{
+  text-align: center;
+  background-color: light;
+  margin-bottom: 4em;
+  background-color: seagreen;
+}
+
+#formulario{
+  padding: 1em 0 1em 70px;
+}
+/* div derecho */
+
+#imagen{
+  width: 150px;
+  height: 150px;
+  background-color: limegreen;
+}
+
+
+
+input[type=text]{
+  width:500px;
+  padding-left:10px;
+}
+
+input[type=submit]{
+  width: 150px;
+  height: 2em;
+  background-color: #D8D8D8;
+
+}
