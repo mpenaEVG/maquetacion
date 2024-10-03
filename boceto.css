@@ -6,12 +6,12 @@ html{
 body{
   width: 1260px;
   margin-top: 45px;
-  height: 500px;
+  height: 500px; /* he sumado 400px del main y 100 del footer*/
   background-color: tomato;
 }
 main{
   background-color: lightcoral;
-  display: flow-root;  /* Limpia el fujo del contenedor */
+  display: flow-root;  /* Limpia el fujo del contenedor, para que coja la altura de las cajas que contiene */
 }
 
 footer{
@@ -25,15 +25,15 @@ footer{
 }
 
 #izquierda{
-  width: 775px;
-  height: 335px;
+  width: 775px;  /* Le he restado a 800 el padding 10px a ambos lados y le he quitado 5px más pq inspeccionando la página he visto que sobraban */
+  height: 335px; /* lo mismo que arriba */
   float: left;
   padding: 30px 10px;
   margin-left:20px;
   margin-right: 10px;
 }
 #derecha{
-  width: 335px;
+  width: 335px; /* el mismo procedimiento que el anterior*/
   height: 295px;
   margin-left: 10px;
   margin-right: 20px;
@@ -57,7 +57,7 @@ footer{
 
 #imagen{
   width: 150px;
-  height: 150px;
+  height: 150px; 
   background-color: limegreen;
 }
 
