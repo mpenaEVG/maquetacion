@@ -6,12 +6,13 @@ html{
 body{
   width: 1260px;
   margin-top: 45px;
-  height: 500px; /* he sumado 400px del main y 100 del footer*/
+  height: 5000px; /* he sumado 400px del main y 100 del footer*/
   background-color: tomato;
 }
 main{
   background-color: lightcoral;
   display: flow-root;  /* Limpia el fujo del contenedor, para que coja la altura de las cajas que contiene */
+
 }
 
 footer{
@@ -57,7 +58,7 @@ footer{
 
 #imagen{
   width: 150px;
-  height: 150px; 
+  height: 300px; 
   background-color: limegreen;
 }
 
@@ -73,4 +74,19 @@ input[type=submit]{
   height: 2em;
   background-color: #D8D8D8;
 
+}
+
+#fixed{
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  position: fixed;
+  top:10px;
+}
+#sticky{
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  position: sticky;
+  top:300px;
 }
