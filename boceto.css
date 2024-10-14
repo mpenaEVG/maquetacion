@@ -76,17 +76,17 @@ input[type=submit]{
 
 }
 
-#fixed{
-  width: 30px;
-  height: 30px;
-  background-color: red;
-  position: fixed;
-  top:10px;
-}
 #sticky{
   width: 30px;
   height: 30px;
-  background-color: blue;
+  background-color: red;
   position: sticky;
-  top:300px;
+  top:10px;
+}
+#relative{
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  position: relative;
+  top:100px;
 }
