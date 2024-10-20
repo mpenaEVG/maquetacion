@@ -1,0 +1,72 @@
+html{
+  background-color: lightgray;
+  width: 1260px;
+  height: 500px;
+}
+
+body{
+  width: 100%;
+  margin-top: 3.57%;
+  height: 100%;
+  background-color: tomato;
+}
+main{
+  background-color: lightcoral;
+  display: flow-root;  
+}
+
+footer{
+  height: 20%; /* 20% del body ~100px*/
+  background-color: lightcoral;
+}
+
+
+#izquierda{
+  width: 61.51%;  
+  height: 335px;
+  float: left;
+  padding: 2.38% 0.79%;
+  margin-left:1.59%;
+  margin-right: 0.79%;
+}
+#derecha{
+  width: 26.59%; 
+  height:295px;
+  margin-left: 0.79%;
+  margin-right: 1.59%;
+  float: left;
+  padding: 3.97% 2.38%;
+}
+ 
+/* div izquierdo */
+
+#parrafo{
+  text-align: center;
+  margin-bottom: 4em;
+  background-color: seagreen;
+}
+
+#formulario{
+  padding: 1em 0 1em 5.56%; 
+  background-color: lightgray;
+}
+
+#imagen{
+  width:44.78%; 
+  height:50.85%; 
+  background-color: limegreen;
+}
+
+
+
+input[type=text]{
+  width:64.52%;
+  padding-left:1.29%;
+}
+
+input[type=submit]{
+  width:19.35%;
+  height: 2em;
+  background-color: #D8D8D8;
+
+}

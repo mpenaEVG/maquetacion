@@ -2,7 +2,6 @@ html{
   background-color: lightgray;
 }
 
-/*duda para isa: que diferencia hay entre ponerlo en el body o en el html*/
 body{
   width: 1260px;
   margin-top: 45px;
@@ -19,9 +18,6 @@ footer{
   background-color: lightcoral;
 }
 
-#izquierda, #derecha{
-  border: 0.05px solid black;
-}
 
 #izquierda{
   width: 775px;  /* Le he restado a 800 el padding 10px a ambos lados y le he quitado 5px más pq inspeccionando la página he visto que sobraban */
@@ -44,7 +40,6 @@ footer{
 
 #parrafo{
   text-align: center;
-  background-color: light;
   margin-bottom: 4em;
   background-color: seagreen;
 }
